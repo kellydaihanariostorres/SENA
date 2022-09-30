@@ -26,6 +26,7 @@ if (u==1):
     print ("Valores")
     print ("Innovación, servicio, confianza, pasión, trabajo en equipo y excelencia")
 
+
 if (u==2):
     print ("catalogo digite (1)")
     print ("servicios digite (2)")
@@ -108,7 +109,18 @@ if (u==2):
         print ("Todo tipo de de depilaciones, incluido láser, IPL y Neodimio-YAG")
         print ("20.000")
         print ("---------------------------------")
-
+if (u==3):
+    print("usted está a punto de solicitar una cita")
+    día=int(input("Ingrese el día para el cual requiere su cita "))
+    mes=str(input("Ingrese el mes para el cual requiere su cita (EN LETRAS) "))
+    hora=str(input("Ingrese la hora para la cual requiere su cita (ejemplo: 10:20)"))
+    punto=int(input("Ingrese el punto fisico para el cual requiere su cita>: Chapinero(1), Fontibon(2), Soacha(3) "))
+    if punto==1:
+     print("Su cita queda programada para el dia" ,día, "del mes" ,mes, "a las" ,hora, "en Chapinero")
+    elif punto==2:
+        print("Su cita queda programada para el dia" ,día, "del mes" ,mes, "a las" ,hora, "en Fontibon")
+    else:
+        print("Su cita queda programada para el dia" ,día, "del mes" ,mes, "a las" ,hora, "en Soacha")
 
 
         
